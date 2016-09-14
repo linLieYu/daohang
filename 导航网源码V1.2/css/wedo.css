@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS BY ZHIMOE.COM */
+/* CSS BY ZHI.MOE */
+/* 版权归知萌动漫所有 */
+
+/*全局样式*/
+body {margin: 0px;padding: 0px;font-family: 'Microsoft Yahei';font-size: 14px;overflow-x:hidden;repeat;}
+ul,li{list-style: none; }
+a{color: #969696;text-decoration: none;outline: none;}
+a:hover{color: #039;text-decoration: underline;}
+img{border: 0;}
+.ad{ width:960px; height:100px; background:#FF0000; padding:0px;}
+
+/*通用样式*/
+.fl{float: left;}
+.fr{text-align: center;}
+.clear{clear:both;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {*zoom:1;}
+
+/* top */
+#top{ width:auto;height:500px;}
+#top .kuandu{width:1003px;margin:0px auto;}
+#top .logo{ width:290px; height:82px;position:relative; top:250px;}
+#top .search{ margin:300px 0px 0px 0px;}
+input[type="text"]{border-radius:4px;border:1px solid #ccc; height:23px; width:300px;}
+input[class="baidu"]{border-radius:4px;border:none; height:25px; width:70px; margin:0px 8px 0px 8px; text-align:center; background:#3385ff; color:#fff;}
+input[class="baidu"]:hover{background:#317ef3;cursor:pointer;}
+input[class="haosou"]{border-radius:4px;border:none; height:25px; width:70px; text-align:center; background:#00be3c; color:#fff;}
+input[class="haosou"]:hover{ background:#1ac550;cursor:pointer;}
+
+/* icon_图标 */
+#icon_list{position: relative;padding: 12px 0px;border: 1px solid #dedede;left:50%; top:-60px; width:1003px; margin:0px 0px 0px -501.5px; background:#ffffff; height:100px;border-radius:4px;opacity:0.98;filter:alpha(opacity=50); -moz-opacity:0.50; opacity:0.50;}
+#icon_list ul{ position: absolute;zoom: 1;top: 0;left: 0;bottom: 0;right: 0;background-color: #fefefe;}
+#icon_list ul li{ float:left;margin-left: 4px;display: block; width:80px;}
+#icon_list ul li a{overflow: hidden;display: block;width: 80px;height: 85px;border-radius: 2px;padding-top: 10px;padding-bottom: 0px;margin: 0 auto;text-align: center;outline: 0;color: #222;text-decoration: none;}
+#icon_list ul li a:hover{color: white;text-decoration: none;background:#c8bcbc;}
+#icon_list ul li img {border-radius: 2px;display: block;margin: 0 auto;width: 54px;height: 54px;}
+#icon_list ul li .project .title {text-align: center;display: block;margin: 0 auto;margin-top: 3px;line-height: 25px;height: 25px;font-size: 13px;width: 100%;border-radius: 4px;}
+
+/* category_文字 */
+.nav_list{padding-bottom: 10px;width:1003px; margin:0 auto;position: relative;top: -50px;border-radius:4px;opacity:0.80;border: 1px solid #dedede; margin-top:12px; background:#FFFFFF;/*-moz-box-shadow: 0 0 8px #666;-webkit-box-shadow: 0 0 8px #666;*/}
+.nav_list .text{border-radius:4px; padding:2px 10px 3px; color:#FFFFFF;}
+.yellow{background:#EDBD14;}/*黄色*/
+.red{background:#FF0000;}/*红色*/
+.Black{background:#000000;}/*黑色*/
+.green{background:#10A821 !important;}/*绿色*/
+.purple{background:#FF00F5;}/*紫色*/
+.blue{background:#005CFF;}/*蓝色*/
+.gray{background:#ccc;}/*灰色*/
+.hr_solid{width: 960px;height: 10px;*line-height:0px;margin: 0px 10px 0 10px;}
+.hr_solid_no{border-bottom:none !important;}
+.category {position: relative;width: 1000px;height: 34px;line-height: 34px;}
+.category:hover{background:#f9f3f9;}
+.category a{color: #595959;font-size: 14px;}
+.category a:hover{color: #03C;text-decoration: underline;}
+.category .more{position: absolute;top: 0px;right: 6px;font-size: 12px;color: #666;}
+.category .more:hover{color: #000;}
+.category .type {float: left;width: 80px; padding-left: 10px;}
+.category ul{white-space: nowrap;height: 28px;overflow: hidden;}
+.category li{float: left;width: 112px;}
+
+/* float浮动 */
+#rfloat{position:fixed;right:20px;left: 50%;margin-left: 520px; bottom:30px; width:83px;}
+#rfloat ul{ border:1px solid #ccc; width:80px; margin:0px; padding:0px; text-align:center;z-index:10; opacity:1;}
+#rfloat ul li{padding:10px 0px;margin:0px; border-bottom:1px solid #ccc;}
+#rfloat ul li a{padding:10px 12px; background:#FFFFFF; color:#000000;}
+#rfloat ul li a:hover{ background:#1BB832; color:#FFFFFF;text-decoration: none;}
+
+/* footer 页面底部 */
+.link {width: 1003px;border: 1px solid #CCCCCC;border-radius: 5px;margin: 0 auto;background: white;-moz-box-shadow: 1px 2px 2px #999;opacity:0.80;}
+.link ul li {float: left;height: 27px;margin-left: 20px;font-size: 12px;}
+.link ul li a:hover {color: #33CCFF;text-shadow: 0 0 4px #95DFF8;text-decoration: none;}
+.linktop {width: 1003px;border-bottom: 1px solid #CCCCCC;height: 35px;background: url(images/link.png) 8px 7px no-repeat;}
+.linktop span {margin-left: 40px;line-height: 35px;font-size: 13px;color: #8C8D8D;}
+.footer p {display: block;height: 13px;text-align: center;font-size: 13px;color: #8C8D8D;line-height: 13px;margin: 10px 0;}
+.footer{ margin-top:-30px;}
+
+/* 子页-通用 */
+.page_bg{ background:url(http://tcwz.qiniudn.com/zhimoedh_page_bg.jpg) no-repeat; width:1920px; height:250px;position:relative;left:50%;margin-left:-960px;}
+#page{ width:1003px; margin:0px auto; height:300px;background:url(http://tcwz.qiniudn.com/zhimoedh_fanhui.png) no-repeat 200px 130px; }
+#page .logo{width:290px; height:82px;position:relative; top:50px;}
+#page .search{margin:120px 0px 0px 0px;}
+#detail_list{padding-bottom: 10px;width:1003px; margin:0 auto; height:auto;}
+#detail_list .fenlei{width:auto; text-align:center; background:#FFAE54;border-radius: 2px; color:#FFFFFF; padding:1px 30px;}
+#detail_list .fenlei1{width:auto; text-align:center; background:#FF0004;border-radius: 2px; color:#FFFFFF; padding:1px 30px;}
+#detail_list .category{margin-top:30px;border-radius:3px;opacity:1; background:#FFFFFF; float:left; height:auto; padding:0px 0px 6px 0px;}
+#detail_list .category a{color: #595959;font-size: 14px; text-decoration:none; padding:8px 35px;}
+#detail_list .category a:hover{ background:#48A7FF; color:#FFFFFF;border-radius: 2px;}
+#detail_list ul{margin-top:0px;overflow:visible;}
+#detail_list ul li{float: left;width: 150px; margin-top:5px; text-align:center;}
+.page_footer{text-align:center; margin:0px; padding:30px 0px 10px 0px;}
+
+/* 其它 */
+#lyb{ height:auto;margin:6px auto 0px;}
+#lyb .txt{ padding:25px 30px 30px 120px;}
+#lyb #ds-reset{ padding:10px 0px 10px 0px;}
+#lyb #ds-thread {background: #ffffff; width:950px; margin:15px auto; padding:0px 30px 0px 30px;-moz-box-shadow:0 0 5px #666;-webkit-box-shadow:0 0 5px #666;}
+#lyb .ds-powered-by a{ color:#FFF !important;display: none;}
+.m-background {
+    position: absolute;
+    zoom: 1;
+    width: 100%;
+    height: 800px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -88888;
+    background: center top no-repeat transparent;
+}
